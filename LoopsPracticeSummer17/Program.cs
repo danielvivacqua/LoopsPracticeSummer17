@@ -117,13 +117,51 @@ namespace LoopsPracticeSummer17
             //condition is met first.
             //While something is TRUE, do this thing.
 
-            Console.WriteLine("What is your first name?");
-            string firstName = Console.ReadLine();
-            while(firstName.ToUpper() == "DANIEL")
-            {
-                Console.WriteLine("Dude, you are amazing.");
-                break;
-            }
+            //Console.WriteLine("What is your first name?");
+            //string firstName = Console.ReadLine();
+            //while(firstName.ToUpper() == "DANIEL")
+            //{
+            //    Console.WriteLine("Dude, you are amazing.");
+            //    break;
+            //}
+
+            //Console.WriteLine("Do you want to play the game? YES/NO");
+            //string playAgain = Console.ReadLine().ToUpper();
+            //while(playAgain == "YES")
+            //{
+            //    Console.WriteLine("It's a rematch!");
+            //    Console.WriteLine("Do you want to play again? YES/NO");
+            //    playAgain = Console.ReadLine();
+            //}
+
+            //A Do-While loop is similar to a While loop, however
+            //The Do-While loop is used when you want a chunk of code to run
+            //AT LEAST ONCE, but repeat only if the While condition is met
+
+            //The structure of a do-while loop looks like this:
+            //do
+            //{
+            //     Do something
+            //}
+            //while(condition);
+
+            //string playAgain;
+            //do
+            //{
+            //    Console.WriteLine("Welcome to my game!");
+            //    //let's pretend the code for the game is here
+            //    Console.WriteLine("Great game!!");
+            //    Console.WriteLine("Do you want to play again? YES/NO");
+            //    playAgain = Console.ReadLine();
+            //}
+            //while (playAgain == "YES");
+
+            //Ask the user for the class (in school) that they would like to add to their
+            //GPA calculation.
+            //Ask the user for the letter grade for the class (no + or -)
+            //Ask the user if they have another class they would like to add to their
+            //GPA calculation.
+            //Using a Do-While Loop, repeat the code if the user says "YES"
 
 
 
