@@ -163,9 +163,64 @@ namespace LoopsPracticeSummer17
             //GPA calculation.
             //Using a Do-While Loop, repeat the code if the user says "YES"
 
+            //string answer;
+            //string classes;
+            //string grade;
+            //Console.WriteLine("Would you like to add a class to your GPA calculation?");
+            //answer = Console.ReadLine().ToLower();
+            //if (answer == "yes")
+            //{
+            //    do
+            //    {
+            //        Console.WriteLine("What class would you like to add?");
+            //        classes = Console.ReadLine();
+            //        Console.WriteLine("Please enter your letter grade for this class.");
+            //        grade = Console.ReadLine();
+            //        Console.WriteLine("Would you like to add another class? YES/NO");
+            //        answer = Console.ReadLine().ToLower();
+            //    }
+            //    while (answer == "yes");
+            //}
 
 
 
+            //NESTED LOOPS
+            //Loop inside of another loop
+            //The inner loop is executed more times than the outer loop
+            //REAL LIFE EXAMPLE - Clock
+
+            //Create a nested loop structure that prints:
+            // 1234
+            // 1234
+
+            //for(int rows = 1; rows <= 2; rows++)
+            //{
+            //    for(int columns = 1; columns <= 4; columns++)
+            //    {
+            //        Console.Write(columns);
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            //Print a Triangle
+            //Outer loop will go line by line
+            //The inner loop will go over different elements in the line.
+            //Result:
+            //1
+            //1 2
+            //1 2 3
+            //1 2 3 4 ...
+
+            Console.WriteLine("How many rows do you want in your triangle?");
+            int n = int.Parse(Console.ReadLine());
+            for (int row = 1; row <= n; row++)
+            {
+                for (int col = 1; col <= row; col++)
+                {
+                    Console.Write(col + " ");
+                }
+                Console.WriteLine();
+            }
 
 
 
