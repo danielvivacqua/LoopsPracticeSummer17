@@ -17,13 +17,28 @@ namespace LoopsPracticeSummer17
             //Keywords break and continue
 
             //For Loop
-            //Can be used for both counting and ...
+            //Can be used for both counting and/or ...
             // ITERATING through an array (or other collection type)
             //Looks like this:
             //for(initializer; condition; updater)
             //{
             //     Do something
             //}
+
+            
+            //int i;
+            //for(int i = 15; i > 0; i--)
+            //{
+            //    Console.WriteLine(i);
+            //}
+           // Console.WriteLine("After the loop has run, i now has the value of " + i);
+
+            for(int i = 50; i <= 100; i++)
+            {
+                Console.WriteLine(i);
+            }
+
+
         }
     }
 }
