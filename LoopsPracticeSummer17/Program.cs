@@ -77,12 +77,41 @@ namespace LoopsPracticeSummer17
             //}
             //Console.WriteLine(product);
 
-            int product = 1;
-            for(int i = 1; i <= 10; i++)
-            {
-                product = product * i;
-            }
-            Console.WriteLine(product);
+            //int product = 1;
+            //for(int i = 1; i <= 10; i++)
+            //{
+            //    product = product * i;
+            //}
+            //Console.WriteLine(product);
+
+            //Foreach loop - used to iterate over a collection (ex. list or array)
+            //You can think of the structure of a foreach loop as the statement:
+            //For each item in the collection, do something
+
+            //foreach(datatype variable in collection)
+            //{
+            //     do something
+            //}
+
+            //string[] calendar = { "Jan", "Dog", "Mar", "Apr", "May", "Jun" };
+            ////Always start with the keyword foreach
+            //foreach(string month in calendar)
+            //{
+            //    Console.WriteLine(month);
+            //}
+            //foreach loops allow the temporary variable to "know" to assign
+            //itself to each element in the collection (like an array), one at a time
+
+            //Foreach loop will always go from beginning to end, no matter what
+            //It counts the number of elements in the collection, and runs that many times
+
+            ////Create an array of 6 musicians (bands or solo artists)
+            ////Using a foreach loop, print each musician's name
+            //string[] musicians = { "The Clash", "Tiger Army", "Justin Bieber", "The Scissor Sisters", "Childish Gambino", "Bach" };
+            //foreach(string musician in musicians)
+            //{
+            //    Console.WriteLine(musician);
+            //}
 
         }
     }
